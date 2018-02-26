@@ -6,7 +6,11 @@ require './candidates'
 require './filters'
 
 ## Your test code can go here
-
-# binding.pry
-
-pp @candidates
+puts find(5)
+pp ordered_by_qualifications(@candidates)
+##binding.pry
+# @candidates.each do |c|
+#   puts Time.now
+#   puts c[:date_applied]
+# end
+# pp @candidates
